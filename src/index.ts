@@ -1,4 +1,3 @@
-export function getQueryString(name: string) {
-  const params = new URLSearchParams(window.location.search)
-  return params.get(name)
-}
+import { macosMethods } from './methods/macos'
+
+export { macosMethods }

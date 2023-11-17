@@ -1,5 +1,5 @@
 {
-  "name": "@yisen91/ts-starter",
+  "name": "@yisen91/client-methods",
   "version": "0.0.0",
   "packageManager": "pnpm@8.10.5",
   "description": "a template for typescript project or plugin",
@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yisen91/ts-starter.git"
+    "url": "git+https://github.com/yisen91/client-methods.git"
   },
   "files": [
     "CHANGELOG.md",
@@ -41,11 +41,16 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "bump": "bumpp package.json -c -p -t --all -x \"pnpm run changelog\""
   },
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  },
   "devDependencies": {
     "@commitlint/cli": "^18.4.1",
     "@minko-fe/commitlint-config": "^2.0.5",
     "@minko-fe/eslint-config": "^2.0.5",
     "@minko-fe/tsconfig": "^2.0.5",
+    "@types/lodash-es": "^4.17.11",
+    "@types/node": "^20.9.1",
     "bumpp": "^9.2.0",
     "conventional-changelog-cli": "^4.1.0",
     "cross-env": "^7.0.3",
