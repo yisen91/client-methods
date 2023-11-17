@@ -1,3 +1,1 @@
-import { macosMethods } from './methods/macos'
-
-export { macosMethods }
+export * from './methods/macos'

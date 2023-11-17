@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   const loginSuccess = () => {
-    loginComplete({login_credential: ''})
+    loginComplete({ login_credential: '' })
   }
 
   return (
